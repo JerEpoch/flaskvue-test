@@ -1,1 +1,1 @@
-web: gunicorn backend:app --log-file -
+web: gunicorn backend.bracketapi:app --log-file -
